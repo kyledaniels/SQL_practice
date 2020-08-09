@@ -1,0 +1,4 @@
+SELECT COUNT(*) AS number_users_email_com
+FROM users
+WHERE email
+LIKE '%.com';
