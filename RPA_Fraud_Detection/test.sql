@@ -14,3 +14,7 @@ SELECT *
  FROM transaction_data
  WHERE ip_address LIKE
  '10%';
+
+ SELECT  *
+ FROM transaction_data
+ WHERE email LIKE '%@temp_email.com';
